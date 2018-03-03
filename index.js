@@ -3,8 +3,6 @@ const app = express();
 
 const PORT = 3000;
 
-app.get('/', (req, res) => {
-  res.send('HEY!')
-});
+app.use(express.static('public'));
 
-app.listen(PORT, () => console.log('Server running on port' + PORT));
+app.listen(PORT, () => console.log('Server running on port ' + PORT));
