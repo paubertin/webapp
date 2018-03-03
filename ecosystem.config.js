@@ -11,7 +11,7 @@ module.exports = {
     deploy: {
         production: {
             user: 'ubuntu',
-            host: 'ec2-52-47-153-75.eu-west-3.compute.amazonaws.com',
+            host: 'ec2-35-180-39-12.eu-west-3.compute.amazonaws.com',
             key: '~/.ssh/rsa_key.pem',
             ref: 'origin/master',
             repo: 'git@github.com:paubertin/webapp.git',
